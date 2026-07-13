@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-banner.png" alt="Autonomous vehicle and robot arm connected by a world-model trajectory" width="100%" />
+  <img src="https://raw.githubusercontent.com/mmmmmzh/mmmmmzh/main/assets/profile-banner.png" alt="Autonomous vehicle and robot arm connected by a world-model trajectory" width="100%" />
 
   <h1>Hi, I'm May</h1>
   <p><strong>World models &middot; Embodied agents &middot; Robust decision-making for autonomous systems</strong></p>
