@@ -16,11 +16,15 @@ I work on learning-based agents that perceive, predict, and act under uncertaint
 
 ## Selected Work
 
-| Project | Focus | Current stage |
+| Project | Focus | Evidence and stage |
 |---|---|---|
-| **Vehicle-Dynamics-Aware World Models** | Dreamer-style world models, vehicle-dynamics shift evaluation, and CARLA/MetaDrive integration | Research validation |
-| **pi0.5 LIBERO Adaptation & Robustness** | Few-demonstration VLA adaptation with frozen task splits and clean/shifted evaluation | Experiments in progress |
-| **Fund Rebalance Agent** | Auditable agent workflows, retrieval, risk checks, human approval, and forward paper evaluation | Preparing public release |
+| [DrivoR](https://github.com/mmmmmzh/DrivoR) | Trajectory-generator post-training and training-side experience replay | Earlier single-seed evaluation completed with a safety limitation; newer matched comparisons remain in progress |
+| [VLA](https://github.com/mmmmmzh/VLA) | Few-demonstration policy adaptation, selection, and execution feedback | Historical four-suite and coverage/feedback evaluations completed; separate recovery-capability study has no verified final result yet |
+| [DynaDreamer](https://github.com/mmmmmzh/dynadreamer) | Dynamics-aware world models and environment consistency | Short-run frozen evaluation completed; later long training interrupted by a shared route fault |
+| [RoboRSI](https://github.com/mmmmmzh/RoboRSI) | Native robot self-improvement workflow and engineering adaptation | Bounded runs and failures documented; observation and dependency qualification remain open |
+| [Fund Rebalance Agent](https://github.com/mmmmmzh/fund-rebalance-agent) | Auditable offline research workflow with human review | Public software core using synthetic data; no trading account connection or established return claim |
+
+Research links are private and require access. [Full project directory and demonstration gaps](https://github.com/mmmmmzh/workflow-handoff) distinguish active work, paused prototypes, and completed negative-result studies. Status is based on reviewed materials through November 6, 2026, 01:01 China Standard Time.
 
 ## Research Interests
 
@@ -37,4 +41,5 @@ I work on learning-based agents that perceive, predict, and act under uncertaint
 - Treat robustness protocols, failure modes, and negative results as first-class outputs.
 - Keep learned reasoning behind deterministic safety, risk, and execution boundaries.
 
-Selected repositories will be published after privacy, licensing, reproducibility, and fresh-clone checks are complete.
+The offline Fund Rebalance Agent core is already public. Research repositories remain private; keeping a project available does not imply its method has been validated.
+
